@@ -107,7 +107,7 @@ import {
   const experiences = [
     {
       title: "Broward College",
-      company_name: "Associates Degree",
+      company_name: "Associate Degree",
       icon: starbucks,
       iconBg: "#383E56",
       date: "Graduated - June 2013",
