@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    Getuwired,
     
   } from "../assets";
   
@@ -47,7 +48,7 @@ import {
       icon: web,
     },
     {
-      title: "Backend Developer",
+      title: "Full Stack Developer",
       icon: backend,
     },
   ];
@@ -153,6 +154,19 @@ import {
         "Using GitPod to complete coding assignments, coding challenges, and projects to complete Revature Curriculum.",
         "Learning fundamentals of Java, SQL, GIT, Linux commands, and interview preparation.",
         "Program designed to guide me qualify for a career Software Engineer."
+      ],
+    },
+    {
+      title: "Jr. Full Stack Developer",
+      company_name: "GetUwired",
+      icon: Getuwired,
+      iconBg: "#383E56",
+      date: "May 2023 - Sept 2023",
+      points: [
+        "Update, maintain and craft custom websites.",
+        "Implement marketing strategies associated with membership sites, newsletter signups, and various CRM platforms.",
+        "Used both frontend and backend technologies to build dynamic web sites for clients.",
+        "Constantly developing new fixes and integrations."
       ],
     },
   ];
