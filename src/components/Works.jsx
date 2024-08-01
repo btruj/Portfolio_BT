@@ -1,6 +1,5 @@
 import Tilt from 'react-tilt';
 import { motion } from 'framer-motion';
-
 import { styles } from '../styles';
 import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
@@ -83,11 +82,7 @@ const Works = () => {
       className="mt-3 text-secondary text-
       [17px] max-w-3xl leading-[30px]"
       >
-        My full-stack projects below were deployed on Render (takes about 1 or 2 minutes to load) 
-        showcases my skills and experience through real-world examples of my work. 
-        Each project is breifly described with links to live demos.
-        It reflects my ability to solve complex problems, work with 
-        different technologies, and manage projects effectively.
+        I enjoy learning the entire process of how an application works on and off the clock. Since being laid off I continue to learn and work on fun projects. Worked with different technologies in my full-stack projects below which were deployed on Vercel and Render.
       </motion.p>
       </div>
 

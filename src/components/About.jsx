@@ -51,13 +51,12 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] 
         max-w-3xl leading-[30px]'
         >
-        I began my journey into programming while pursuing my degree. 
-        Through self-study and a web development bootcamp course, I grew a passion for creating 
-        applications in languages such as HTML, CSS, JavaScript and 
-        most popular library React. I recently started contributing to 
-        open source on tampadevs github which is my local meetup group of developers. 
-        I have worked on a variety of projects using the latest technologies. I have real world work experience as a Full stack developer at Getuwired. 
-        I am always looking to improve my skills and learn new technologies. Fluent in Spanish as well. 
+        I began my journey into programming while pursuing my MIS degree. 
+        Through self-study and bootcamp course, I grew a passion for creating 
+        applications in different technologies. I have contributed to 
+        open source on TampaDevs github which is was my local meetup. 
+        I have real world work experience as a Full stack developer at Getuwired. 
+        I am always looking to improve my skills and learn new technologies.
         </motion.p>
        
        <div className='mt-20 flex flex-wrap gap-10'>

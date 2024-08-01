@@ -20,6 +20,8 @@ import {
     tesla,
     shopify,
     carrent,
+    ptopia,
+    sc,
     jobit,
     tripguide,
     threejs,
@@ -192,25 +194,50 @@ import {
   
   const projects = [
     {
-      name: "My Daily Journal",
+      name: "Expense Tracker",
       description:
-        "Saves journal entries in MongoDB database for users.",
+        "Saves users, transactions, other data in Neon Database using Clerk for Authorization.",
       tags: [
         {
-          name: "EJS",
+          name: "NextJS",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Neon",
           color: "green-text-gradient",
         },
         {
-          name: "JavaScript",
+          name: "Clerk",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: sc,
+      source_code_link: "https://expense-tracker-nextjs-ebon.vercel.app/",
+    },
+    {
+      name: "Promptopia",
+      description:
+        "Open-source AI prompting tool for modern world to discover, create, share creative prompts.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NextJS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "my-daily-journal.onrender.com/",
+      image: ptopia,
+      source_code_link: "https://learning-next-js-react-8k9xjsk3q-btruj.vercel.app/",
     },
     {
       name: "Newsletter Sign-Up",
@@ -254,6 +281,29 @@ import {
       image: tripguide,
       source_code_link: "https://todo-list-3fhr.onrender.com/",
     },
+
+        {
+      name: "My Daily Journal",
+      description:
+        "Saves users & journal entries in MongoDB Database .",
+      tags: [
+        {
+          name: "EJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "my-daily-journal.onrender.com/",
+    },
+  
   ];
   
   export { services, technologies, experiences, testimonials, projects };

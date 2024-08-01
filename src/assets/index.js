@@ -26,10 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import Getuwired from "./company/Getuwired.jpg";
-
+import sc from "./sc.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ptopia from "./ptopia.png";
 
 export {
   logo,
@@ -58,6 +59,8 @@ export {
   starbucks,
   tesla,
   carrent,
+  ptopia,
+  sc,
   jobit,
   tripguide,
   Getuwired
