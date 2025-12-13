@@ -26,7 +26,7 @@ import {
     tripguide,
     threejs,
     Getuwired,
-    
+    outlier
   } from "../assets";
   
   export const navLinks = [
@@ -150,7 +150,7 @@ import {
       company_name: "Revature",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2023 - April 2023",
       points: [
         "Virtual learning program with trainer and primary mentor to guide me through the process.",
         "Using GitPod to complete coding assignments, coding challenges, and projects to complete Revature Curriculum.",
@@ -169,6 +169,19 @@ import {
         "Implement marketing strategies associated with membership sites, newsletter signups, and various CRM platforms.",
         "Used both frontend and backend technologies to build dynamic web sites for clients.",
         "Constantly developing new fixes and integrations."
+      ],
+    },
+    {
+      title: "AI Developer",
+      company_name: "Outlier AI",
+      icon: outlier,
+      iconBg: "#383E56",
+      date: "May 2024 - Present",
+      points: [
+        "Help Improve AI.",
+        "Created and answered questions to train AI models.",
+        "Reviewed, analyzed, and ranked AI-models' chains of thought for correctness and approach.",
+        "Provided clear, constructive feedback to improve AI-generated responses."
       ],
     },
   ];
